@@ -7,7 +7,7 @@ import sys
 
 class KafkaLoggingHandler(logging.Handler):
 
-    def __init__(self, hosts_list, topic, key=None):
+    def __init__(self, hosts_list, topic="test", key=None):
         logging.Handler.__init__(self)
         self.kafka_client = KafkaClient(hosts_list)
         self.key = key
