@@ -24,7 +24,7 @@ Get the project
 ----------------
 
 1. Clone the git repository
-   > git clone https://
+   > git clone https://github.com/taykey/python-kafka-logging/
 
 2. Install a virtualenv
    > sudo apt-get install python-virtualenv
@@ -34,13 +34,5 @@ Get the project
 
 4. Install project's requirements
    > python-kafka-logging-ve/bin/pip install -r requirements.txt
-
-
-
-
-TODO -
---------
-1. git clone - write url
-2. have it actually pip installed
 
 
