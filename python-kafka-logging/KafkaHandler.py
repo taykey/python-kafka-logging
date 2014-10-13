@@ -7,7 +7,7 @@ import sys
 
 class KafkaLoggingHandler(logging.Handler):
 
-    def __init__(self, hosts_list, topic="test", key=None):
+    def __init__(self, hosts_list, topic, key=None):
         logging.Handler.__init__(self)
         self.kafka_client = KafkaClient(hosts_list)
         self.key = key
@@ -29,9 +29,10 @@ class KafkaLoggingHandler(logging.Handler):
                 self.producer.send_messages(self.kafka_topic_name, msg)
             else:
                 self.producer.send(self.kafka_topic_name, self.key, msg)
+        except (KeyboardInterrupt, SystemExit):
+            raise
         except:
-            exc_info = sys.exc_info()
-            traceback.print_exception(*exc_info)
+            self.handleError(record)
 
     def close(self):
         self.producer.stop()
