@@ -36,11 +36,3 @@ Get the project
    > python-kafka-logging-ve/bin/pip install -r requirements.txt
 
 
-
-
-TODO -
---------
-1. git clone - write url
-2. have it actually pip installed
-
-
