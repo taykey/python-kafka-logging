@@ -8,6 +8,6 @@ setup(
   author_email = 'avihoo@taykey.com',
   url = 'https://github.com/taykey/python-kafka-logging', # use the URL to the github repo
   download_url = 'https://github.com/taykey/python-kafka-logging/tarball/0.1',
-  keywords = ['kafka', 'logging', 'python'], # arbitrary keywords
+  keywords = ['kafka', 'logging', 'python', 'logstash'], # arbitrary keywords
   classifiers = [],
 )
