@@ -18,7 +18,7 @@ packages = [
     'python-kafka-logging',
 ]
 
-requires = [ 'kafka-python==0.9.2', 'logstash_formatter==0.5.8', ]
+requires = [ 'kafka-python==0.9.2', 'logstash-formatter==0.5.8', ]
 
 with open('README.md', 'r', 'utf-8') as f:
     readme = f.read()
