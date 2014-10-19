@@ -1,7 +1,7 @@
 Python Kafka Logging Handler
-============================
+===============================
 
-Simple python logging handler for forwarding logs to a kafka queue.
+Simple python logging handler for forwarding logs to a kafka server.
 
 The Handler uses a logstash formatter.
 
@@ -34,5 +34,4 @@ Get the project
 
 4. Install project's requirements
    > python-kafka-logging-ve/bin/pip install -r requirements.txt
-
 

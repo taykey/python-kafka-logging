@@ -26,7 +26,7 @@ with open('README.md', 'r', 'utf-8') as f:
 setup(
     name='python-kafka-logging',
     version=0.1,
-    description='Simple python logging handler for forwarding logs to a kafka queue.',
+    description='Simple python logging handler for forwarding logs to a kafka server.',
     long_description=readme + '\n\n',
     author='Avihoo Mamka',
     author_email='avihoo@taykey.com',
