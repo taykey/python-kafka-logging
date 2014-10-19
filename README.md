@@ -16,7 +16,7 @@ How to use
 ----------
 Example for using the handler within a native logging.conf file
 
-   > conf/logging.conf
+   > example/logging.conf
    
 
 
