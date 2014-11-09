@@ -21,7 +21,7 @@ packages = [
 install_requirements = parse_requirements('requirements.txt')
 requirements = [str(ir.req) for ir in install_requirements]
 
-with open('README.md', 'r', 'utf-8') as f:
+with open('README.rst', 'r', 'utf-8') as f:
     readme = f.read()
 
 setup(
@@ -35,7 +35,7 @@ setup(
     author_email='avihoo@taykey.com',
     url='https://github.com/taykey/python-kafka-logging',
     packages=packages,
-    package_data={'': ['LICENSE.txt', 'README.md']},
+    package_data={'': ['LICENSE.txt', 'README.rst']},
     include_package_data=True,
     install_requires=requirements,
     license='Apache 2.0',
