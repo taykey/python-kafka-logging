@@ -18,7 +18,8 @@ packages = [
     'python-kafka-logging',
 ]
 
-requires = [ 'kafka-python==0.9.2', 'logstash-formatter==0.5.8', ]
+with open('requirements.txt', 'r', 'utf-8') as req:
+    requirements = req.read()
 
 with open('README.md', 'r', 'utf-8') as f:
     readme = f.read()
@@ -28,21 +29,23 @@ setup(
     version=0.1,
     description='Simple python logging handler for forwarding logs to a kafka server.',
     long_description=readme + '\n\n',
+    maintainer="Taykey INC",
+    maintainer_email="github@taykey.com",
     author='Avihoo Mamka',
     author_email='avihoo@taykey.com',
     url='https://github.com/taykey/python-kafka-logging',
     packages=packages,
-    package_data={'': ['LICENSE.txt']},
+    package_data={'': ['LICENSE.txt', 'README.md']},
     include_package_data=True,
-    install_requires=requires,
+    install_requires=requirements,
     license='Apache 2.0',
     zip_safe=False,
+    keywords=['python', 'logging', 'handler', 'example', 'kafka', 'logs', 'logstash', 'formatter'],
     classifiers=(
         'Intended Audience :: Developers',
         'Natural Language :: English',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
-
     ),
 )
