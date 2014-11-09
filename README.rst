@@ -4,7 +4,7 @@ Python Kafka Logging Handler
 
 Simple python logging handler for forwarding logs to a kafka server.
 
-The Handler uses a logstash formatter.
+The handler uses a logstash formatter.
 
 
 Installing
@@ -56,9 +56,11 @@ Get the project
 
 Reporting Issues
 ================
-If you have suggestions, bugs or other issues specific to this library, file them <a href="https://github.com/taykey/python-kafka-logging/issues">here</a> or contact me at avihoo <at> taykey <dot> com.
+If you have suggestions, bugs or other issues specific to this library, file them `here`_ or contact me at avihoo <at> taykey <dot> com.
 
 
 
 keywords: python, logging, handler, example, kafka, logs, logstash, formatter
+
+.. _here: http://python-requests.org
 
