@@ -35,3 +35,13 @@ Get the project
 4. Install project's requirements
    > python-kafka-logging-ve/bin/pip install -r requirements.txt
 
+
+
+Reporting Issues
+-----------------
+If you have suggestions, bugs or other issues specific to this library, file them [here](https://github.com/taykey/python-kafka-logging/issues) or contact me at avihoo &lt;at&gt; taykey &lt;dot&gt; com.
+
+
+
+keywords: python, logging, handler, example, kafka, logs, logstash, formatter
+
