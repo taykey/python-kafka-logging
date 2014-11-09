@@ -62,5 +62,5 @@ If you have suggestions, bugs or other issues specific to this library, file the
 
 keywords: python, logging, handler, example, kafka, logs, logstash, formatter
 
-.. _here: http://python-requests.org
+.. _here: https://github.com/taykey/python-kafka-logging/issues
 
