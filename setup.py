@@ -2,7 +2,7 @@
 
 import os
 import sys
-
+from pip.req import parse_requirements
 from codecs import open
 
 try:
@@ -18,8 +18,8 @@ packages = [
     'python-kafka-logging',
 ]
 
-with open('requirements.txt', 'r', 'utf-8') as req:
-    requirements = req.read()
+install_requirements = parse_requirements('requirements.txt')
+requirements = [str(ir.req) for ir in install_requirements]
 
 with open('README.md', 'r', 'utf-8') as f:
     readme = f.read()
