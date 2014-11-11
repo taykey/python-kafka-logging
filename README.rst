@@ -1,6 +1,15 @@
 ===============================
 Python Kafka Logging Handler
 ===============================
+.. image:: https://pypip.in/download/python-kafka-logging/badge.svg
+    :target: https://pypi.python.org/pypi//python-kafka-logging/
+    :alt: Downloads
+.. image:: https://pypip.in/version/python-kafka-logging/badge.svg
+    :target: https://pypi.python.org/pypi/python-kafka-logging/
+    :alt: Latest Version
+.. image:: https://pypip.in/license/python-kafka-logging/badge.svg
+    :target: https://pypi.python.org/pypi/python-kafka-logging/
+    :alt: License
 
 Simple python logging handler for forwarding logs to a kafka server.
 
