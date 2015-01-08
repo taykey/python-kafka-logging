@@ -1,0 +1,6 @@
+include README*
+include requirements.txt
+prune test
+prune .git
+recursive-exclude . *.pyc
+
