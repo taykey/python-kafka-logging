@@ -4,6 +4,8 @@ import os
 import sys
 from pip.req import parse_requirements
 from codecs import open
+import uuid
+
 
 try:
     from setuptools import setup
@@ -18,7 +20,7 @@ packages = [
     'python-kafka-logging',
 ]
 
-install_requirements = parse_requirements('requirements.txt', session=uuid.uuid1())
+install_requirements = parse_requirements('requirements.txt', None, None, None, uuid.uuid1())
 requirements = [str(ir.req) for ir in install_requirements]
 
 with open('README.rst', 'r', 'utf-8') as f:
