@@ -2,9 +2,9 @@
 
 import os
 import sys
+import uuid
 from pip.req import parse_requirements
 from codecs import open
-import uuid
 
 
 try:
