@@ -21,7 +21,7 @@ Installing
 
 .. code-block:: shell
 
-	$ pip install python-kafka-logging
+	$ pip install python_kafka_logging
 
 
 How to use 
@@ -53,13 +53,13 @@ Get the project
 	
 	.. code-block:: shell
 	
-		$ virtualenv python-kafka-logging-ve
+		$ virtualenv python_kafka_logging_ve
 
 	4. Install project's requirements
 	
 	.. code-block:: shell
 	
-		$ python-kafka-logging-ve/bin/pip install -r requirements.txt
+		$ python_kafka_logging+ve/bin/pip install -r requirements.txt
 
 
 
