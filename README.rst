@@ -59,7 +59,7 @@ Get the project
 	
 	.. code-block:: shell
 	
-		$ python_kafka_logging+ve/bin/pip install -r requirements.txt
+		$ python_kafka_logging_ve/bin/pip install -r requirements.txt
 
 
 
