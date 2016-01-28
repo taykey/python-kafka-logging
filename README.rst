@@ -1,13 +1,13 @@
 ===============================
 Python Kafka Logging Handler
 ===============================
-.. image:: https://pypip.in/download/python-kafka-logging/badge.svg
+.. image:: https://img.shields.io/pypi/d/python-kafka-logging.svg
     :target: https://pypi.python.org/pypi//python-kafka-logging/
     :alt: Downloads
-.. image:: https://pypip.in/version/python-kafka-logging/badge.svg
+.. image:: https://img.shields.io/pypi/v/python-kafka-logging.svg
     :target: https://pypi.python.org/pypi/python-kafka-logging/
     :alt: Latest Version
-.. image:: https://pypip.in/license/python-kafka-logging/badge.svg
+.. image:: https://img.shields.io/pypi/l/python-kafka-logging.svg
     :target: https://pypi.python.org/pypi/python-kafka-logging/
     :alt: License
 
