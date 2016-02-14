@@ -28,7 +28,7 @@ with open('README.rst', 'r', 'utf-8') as f:
 
 setup(
     name='python_kafka_logging',
-    version=0.5,
+    version=0.6,
     description='Simple python logging handler for forwarding logs to a kafka server.',
     long_description=readme + '\n\n',
     maintainer="Taykey INC",
